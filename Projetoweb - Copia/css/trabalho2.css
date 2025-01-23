@@ -1,0 +1,192 @@
+centro{
+   
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    height: 100vh;
+   justify-content: center;
+   align-items: center;
+    
+    
+}
+.horz{
+    text-align: center;
+    
+}
+
+hr{
+    
+    height: 3px;
+    background-color: black;
+    border: none;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 14.0rem;
+    bottom: 1.9rem;
+    
+    transform: translate(180PX);
+    width: 3px;
+    background-color: black;
+
+  }
+
+.elementoPai {
+    position: relative;
+    left: 0;
+
+
+}
+
+.elementoFilho{
+    
+    top: 20.1;
+    bottom: 0;
+ 
+    text-align: center;
+   
+    
+    
+}
+
+.filmes{
+    display: flex;
+    justify-content: flex-center;
+}
+
+
+.imagem {
+    display: inline-block;
+    margin-right: 10px; 
+    }
+    fonte-bonita {
+        font-size:larger;
+        color:rgb(0, 0, 0);
+    }
+    fonte-maravilhosa{
+        font-size:smaller;
+        color: black;
+    }
+    fonte-padrao{
+        font-size: large;
+        text-align: center;
+    }
+    fonte-grande{
+      font-size:xx-large;
+      
+    }
+  
+    figure {
+        display: inline-block; /* Faz com que cada figura seja tratada como um item inline */
+        margin: 10px;          /* Adiciona espaçamento entre as figuras */
+        text-align: center;    /* Alinha a legenda ao centro da imagem */
+      }
+
+      .caixa {
+        position: fixed;
+        top: 56%; /* Posiciona a caixa verticalmente no meio da tela */
+        left: 0; /* Fixa no lado esquerdo */
+        transform: translateY(-50%); /* Centraliza a caixa verticalmente */
+        
+        
+       
+      
+        padding: 22px;
+       
+        display: flex;
+        flex-direction: column; /* Alinha os textos verticalmente */
+        justify-content: space-between; /* Espaça os itens igualmente */
+        height: 50%; /* Altura fixa da caixa */
+        width: 12%; /* Largura fixa da caixa */
+      }
+      .caixa3 {
+
+        font-size: x-large;
+        position: absolute; /* A caixa será posicionada de forma absoluta */
+        top: 25.1%; /* A caixa começa a 20% do topo da tela */
+        left: 200px; /* A caixa começa a 10% da esquerda da tela */
+       margin: 50px;
+    
+        
+        
+      }
+      .caixa2 {
+
+        
+        font-size: x-large;
+        position: absolute; /* A caixa será posicionada de forma absoluta */
+        top: 25%; /* A caixa começa a 20% do topo da tela */
+        left: 275px; /* A caixa começa a 10% da esquerda da tela */
+       margin: 26px;
+    
+        
+        
+      }
+      .caixasobre {
+
+        
+        font-size: x-large;
+        position: absolute; /* A caixa será posicionada de forma absoluta */
+        top: 25%; /* A caixa começa a 20% do topo da tela */
+        left: 575px; /* A caixa começa a 10% da esquerda da tela */
+       margin: 26px;
+    
+        
+        
+      }
+      .caixa4{
+
+        font-size: x-large;
+        position: absolute;
+        top:25.1%;
+        left:550px;
+        margin: 50px
+      }
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* altura do rodapé */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* altura do rodapé */
+}
+body{
+  background-color: #DFFEFF;
+}
+
+.caixa5 img{
+  border-radius: 15px;
+ width: 175px;
+ height: 300px;
+ 
+  justify-content: space-between;
+  object-fit: cover; 
+}
+.caixa5 {
+ 
+  font-size: x-large;
+  position: absolute; /* A caixa será posicionada de forma absoluta */
+  top: 25.1%; /* A caixa começa a 20% do topo da tela */
+  left: 200px; /* A caixa começa a 10% da esquerda da tela */
+ margin: 50px;
+
+  
+  
+}
+.caixa6{
+
+  font-size: x-large;
+  position: absolute;
+  top:25.1%;
+  left:250px;
+  margin: 50px
+}
